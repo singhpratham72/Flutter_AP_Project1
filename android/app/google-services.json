@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "65620864338",
+    "firebase_url": "https://advancedprogramming-e94cf.firebaseio.com",
+    "project_id": "advancedprogramming-e94cf",
+    "storage_bucket": "advancedprogramming-e94cf.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:65620864338:android:83001565e2fc57e03ede8b",
+        "android_client_info": {
+          "package_name": "advpro.ap_ecom_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "65620864338-89q3kd2jj00vnh2emp98p2p4r3l3t3e8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAGuNO5SCXJ_p0_YQ2bhztHoJJIq1TP6hI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "65620864338-89q3kd2jj00vnh2emp98p2p4r3l3t3e8.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "65620864338-ol0mo1391a4ovqr127rj4s365q870u8i.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "advpro.apEcomApp"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
