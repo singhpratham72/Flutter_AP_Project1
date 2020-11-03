@@ -1,4 +1,5 @@
 import 'package:ap_ecom_app/constants.dart';
+import 'package:ap_ecom_app/screens/login_page.dart';
 import 'package:ap_ecom_app/screens/myOrders_page.dart';
 import 'package:ap_ecom_app/services/firebase_services.dart';
 import 'package:ap_ecom_app/widgets/display_details.dart';
@@ -155,8 +156,8 @@ class _UserTabState extends State<UserTab> {
                   color: Colors.black38,
                 ),
                 GestureDetector(
-                  onTap: () {
-                    FirebaseAuth.instance.signOut();
+                  onTap: () async {
+                    await FirebaseAuth.instance.signOut();
                   },
                   child: Padding(
                     padding: const EdgeInsets.symmetric(vertical: 10.0),

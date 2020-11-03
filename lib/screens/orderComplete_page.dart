@@ -32,10 +32,8 @@ class OrderCompletePage extends StatelessWidget {
             ),
             GestureDetector(
               onTap: () {
-                Navigator.pushReplacement(
-                    context,
-                    MaterialPageRoute(
-                        builder: (BuildContext context) => HomePage()));
+                Navigator.push(context,
+                    MaterialPageRoute(builder: (context) => HomePage()));
               },
               child: Container(
                 height: 45.0,

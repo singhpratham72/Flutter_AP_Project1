@@ -84,7 +84,7 @@ class _CartPageState extends State<CartPage> {
                                       ),
                                       child: Row(
                                         mainAxisAlignment:
-                                            MainAxisAlignment.spaceEvenly,
+                                            MainAxisAlignment.spaceBetween,
                                         children: [
                                           Container(
                                             width: 90,
@@ -99,8 +99,9 @@ class _CartPageState extends State<CartPage> {
                                             ),
                                           ),
                                           Container(
+                                            width: 170.0,
                                             padding: EdgeInsets.only(
-                                              left: 16.0,
+                                              left: 0.0,
                                             ),
                                             child: Column(
                                               mainAxisAlignment:
@@ -208,7 +209,7 @@ class _CartPageState extends State<CartPage> {
                       builder: (context, total) {
                         return total.hasData
                             ? Text(
-                                '\$${total.data}',
+                                '\$${total.data}.0',
                                 style: Constants.regularHeading
                                     .copyWith(fontSize: 21.0),
                               )

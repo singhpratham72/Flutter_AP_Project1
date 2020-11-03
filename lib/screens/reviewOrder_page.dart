@@ -60,11 +60,11 @@ class ReviewOrderPage extends StatelessWidget {
                               return Padding(
                                 padding: const EdgeInsets.symmetric(
                                   vertical: 16.0,
-                                  horizontal: 0.0,
+                                  horizontal: 25.0,
                                 ),
                                 child: Row(
                                   mainAxisAlignment:
-                                      MainAxisAlignment.spaceEvenly,
+                                      MainAxisAlignment.spaceBetween,
                                   children: [
                                     Container(
                                       width: 90,
@@ -79,6 +79,7 @@ class ReviewOrderPage extends StatelessWidget {
                                       ),
                                     ),
                                     Container(
+                                      width: 170.0,
                                       child: Column(
                                         mainAxisAlignment:
                                             MainAxisAlignment.start,

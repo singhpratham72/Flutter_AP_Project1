@@ -132,3 +132,25 @@ Future<int> getCartTotal() async {
   }
   return total;
 }
+
+// Future createProduct() async {
+//   // var uuid = Uuid();
+//   // String productID = uuid.v1();
+//
+//   Map<String, dynamic> productData = {
+//     'name': 'DAP Denim Shorts',
+//     'desc':
+//         'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+//     'price': 999,
+//     'images': [
+//       'https://firebasestorage.googleapis.com/v0/b/advancedprogramming-e94cf.appspot.com/o/tshirts%2Fpexels-andrea-piacquadio-3775119.jpg?alt=media&token=a7c9535c-a471-44f3-a14f-6faf71c621cf',
+//       'https://firebasestorage.googleapis.com/v0/b/advancedprogramming-e94cf.appspot.com/o/tshirts%2Fpexels-andrea-piacquadio-3775119.jpg?alt=media&token=a7c9535c-a471-44f3-a14f-6faf71c621cf'
+//     ],
+//     'search_string': 'dapdenimshorts',
+//     'size': ['S', 'M', 'L', 'XL']
+//   };
+//
+//   print('Product Created');
+//
+//   return await _firebaseServices.productsRef.doc().set(productData);
+// }
